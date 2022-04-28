@@ -5,16 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EntityLayer.Concreate
+namespace EntityLayer.Concrete
 {
-    public class Feature
+    public class SocialMedia
     {   
         [Key]
-        public int FeatureID { get; set; }
-        public string Header { get; set; }
+        public int SocialMediaID { get; set; }
         public string Name { get; set; }
-        public string Title { get; set; }
-        
-
+        public string Url { get; set; }
+        public string Icon { get; set; }
+        public bool Status { get; set; }
     }
 }
