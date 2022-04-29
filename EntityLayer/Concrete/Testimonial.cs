@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concrete
 {
-    public class Testimonials
+    public class Testimonial
     {
            
         [Key]
