@@ -268,7 +268,7 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("SocialMedias");
                 });
 
-            modelBuilder.Entity("EntityLayer.Concrete.Testimonials", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.Testimonial", b =>
                 {
                     b.Property<int>("TestimonialsID")
                         .ValueGeneratedOnAdd()

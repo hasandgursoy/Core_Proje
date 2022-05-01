@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccessLayer.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20220429213505_mig1")]
+    [Migration("20220430181646_mig1")]
     partial class mig1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -270,7 +270,7 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("SocialMedias");
                 });
 
-            modelBuilder.Entity("EntityLayer.Concrete.Testimonials", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.Testimonial", b =>
                 {
                     b.Property<int>("TestimonialsID")
                         .ValueGeneratedOnAdd()
